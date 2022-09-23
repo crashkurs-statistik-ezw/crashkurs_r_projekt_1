@@ -12,7 +12,7 @@
 # in deinem Skript verwendet werden.
 
 
-# 2.2 Daten einlesen ------------------------------------------------------
+# 1.2 Daten einlesen ------------------------------------------------------
 
 # 2.2.1 Daten einlesen
 # * Lese den Datensatz data/hr_data.csv ein
@@ -22,22 +22,22 @@
 #   CSV-Dateien, die Werte mit einem Semikolon trennen (siehe ?read_csv)
 
 
-# 2.3 Daten bereinigen ---------------------------------------------
+# 1.3 Daten bereinigen ---------------------------------------------
 
-# 2.3.1 Variablennamen bereinigen
+# 1.3.1 Variablennamen bereinigen
 # * Reinige die Variablennamen mit der Funktion clean_names 
 #   aus dem Paket jantior (siehe ?clean_names)
 # * Speichere den bereinigten Datensatz in der Variable "hr_cleaned"
 
 
-# 2.4 Datenexport ---------------------------------------------------------
+# 1.4 Datenexport ---------------------------------------------------------
 
-# 2.4.1 CSV-Datei exportieren
+# 1.4.1 CSV-Datei exportieren
 # * Exportiere den Datensatz hr_cleaned in den Ordner data/cleaned
 # * Speichere den Datensatz  unter data/cleaned/hr_cleaned.csv
 
 
-# 2.4.2 SAV-Datei exportieren
+# 1.4.2 SAV-Datei exportieren
 # * Um die Daten in SPSS zu nutzen, exportiere den gereinigten Datensatz mit der
 #   Funktion write_sav aus dem Paket haven (siehe ?write_sav)
 # * Speichere die Daten unter data/cleaned/hr_cleaned.sav
